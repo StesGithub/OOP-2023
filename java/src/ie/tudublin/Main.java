@@ -3,6 +3,11 @@ package ie.tudublin;
 public class Main
 {
 
+	public static void StephenCode(){
+		String[] a = {"MAIN"};
+		processing.core.PApplet.runSketch(a, new stephenCode());
+	}
+
 	public static void helloProcessing()
 	{
 		String[] a = {"MAIN"};
@@ -65,7 +70,7 @@ public class Main
 		penny.setName("Penny");
 		penny.speak();
 
-		yasc();
+		StephenCode();
 	}
 	
 }
